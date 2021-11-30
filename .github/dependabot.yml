@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "maven" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/functions/cloud-events-demo-fn/" # Location of package manifests
     target-branch: "develop"
     schedule:
       interval: "daily"

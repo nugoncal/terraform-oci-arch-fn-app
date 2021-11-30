@@ -10,3 +10,8 @@ updates:
     target-branch: "develop"
     schedule:
       interval: "daily"
+  - package-ecosystem: "terraform" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    target-branch: "develop"
+    schedule:
+      interval: "daily"

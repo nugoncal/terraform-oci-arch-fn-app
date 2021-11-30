@@ -8,10 +8,13 @@ updates:
   - package-ecosystem: "maven" # See documentation for possible values
     directory: "/functions/cloud-events-demo-fn/" # Location of package manifests
     target-branch: "develop"
+    open-pull-requests-limit: 10
     schedule:
       interval: "daily"
+      
   - package-ecosystem: "terraform" # See documentation for possible values
     directory: "/" # Location of package manifests
     target-branch: "develop"
+    open-pull-requests-limit: 10
     schedule:
       interval: "daily"
